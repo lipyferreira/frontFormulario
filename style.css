@@ -1,0 +1,81 @@
+body{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8F8FF;
+
+}
+.nav{
+   /* position: absolute; */
+   top: 0;
+   padding: 0.2rem;
+   margin: 0;
+   width: 100%;
+   background-color: rgba(112, 128, 144, 0.8);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#api{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 20%;
+    position: absolute;
+    height: 15rem;
+    width: 52%;
+    background-color: rgba(112, 128, 144, 0.9);
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+#api span ,p{
+    padding: 0.2rem;
+    font-weight: 590;
+}
+#api span{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    
+}
+
+#formulario {
+    top: 0;
+    margin: 0;
+    width: 50%;
+    background-color: rgba(112, 128, 144, 0.3);
+    padding: 1rem;
+    border-end-end-radius: 1rem;
+    border-end-start-radius: 0.3rem;
+}
+#formulario label {
+    color: black;
+
+}
+.btn {
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 425px){
+    .nav h1{
+        font-size: 1.7rem;
+    }
+    #formulario {
+        width: 75%;
+    }
+    label {
+        font-size: 0.9rem;
+    }
+    ::placeholder {
+        font-size: 0.8rem;
+    }
+    .btn {
+        padding: 100;
+        font-size: 0.9rem;
+    }
+    
+}
