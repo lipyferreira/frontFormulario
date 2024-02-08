@@ -77,10 +77,15 @@ body{
         padding: 100;
         font-size: 0.9rem;
     }
-    #api span ,p{
-    padding: 0.2rem;
-    font-weight: 590;
-    font-size: 0.9rem
-}
+    #api span {
+        flex-direction: column;
+        align-items: center;
+    }
+    #api span ,h3 ,p{
+        padding: 0.2rem;
+        font-weight: 590;
+        font-size: 0.9rem;
+        margin: 0.1rem;
+    }
     
 }
