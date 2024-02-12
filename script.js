@@ -1,7 +1,7 @@
-const url = "https://back-formulario.vercel.app/aluno"
-const urlall = "https://back-formulario.vercel.app/all"
-// const url = "http://localhost:3000/aluno"
-// const urlall = "http://localhost:3000/all"
+// const url = "https://back-formulario.vercel.app/aluno"
+// const urlall = "https://back-formulario.vercel.app/all"
+const url = "http://localhost:3000/aluno"
+const urlall = "http://localhost:3000/all"
 
 const date = new Date()
 
@@ -13,7 +13,7 @@ const pdfList = document.getElementById('linkPdf')
 const classes = cadastrar.classList
 
 //gerar PDF
-async function gererPDF() {
+async function getAll() {
   const user = window.prompt('Digite sua senha')
   switch (user) {
     case '123431':
