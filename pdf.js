@@ -16,7 +16,7 @@ async function allData() {
             content.appendChild(span)
         })
 }
-
+allData()
 btn.addEventListener('click', () => {
     const options = {
         margin: [10,25,10,-15],
