@@ -4,7 +4,7 @@ const p = document.createElement("p")
 const span = document.createElement("span")
 const content = document.getElementById("content")
 
-const url = 'http://localhost:3000/all'
+const url = 'https://back-formulario.vercel.app/all'
 
 async function allData() {
     await fetch(url)
@@ -16,7 +16,7 @@ async function allData() {
             content.appendChild(span)
         })
 }
-allData()
+
 btn.addEventListener('click', () => {
     const options = {
         margin: [10,25,10,-15],
