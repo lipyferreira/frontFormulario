@@ -3,8 +3,6 @@ const urlall = "https://back-formulario.vercel.app/all"
 // const url = "http://localhost:3000/aluno"
 // const urlall = "http://localhost:3000/all"
 
-const date = new Date()
-
 const form = document.getElementById('formulario');
 
 const nome = document.getElementById('nome')
@@ -12,13 +10,11 @@ const cadastrar = document.querySelector("form > button")
 const pdfList = document.getElementById('linkPdf')
 const classes = cadastrar.classList
 
-//gerar PDF
+//gerar pdf
 async function getAll() {
   const user = window.prompt('Digite sua senha')
   switch (user) {
-    case '123431':
-      await fetch(`${urlall}`)
-
+    case '1234':
       break;
 
     default:
